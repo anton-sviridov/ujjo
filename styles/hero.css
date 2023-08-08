@@ -1,0 +1,46 @@
+.hero {
+    display: flex;
+}
+
+.hero__left-block {
+    width: 50%;
+}
+
+.hero__large-logo {
+    padding: 1.5vw;
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.hero__right-block {
+    width: 50%;
+}
+
+.hero__ticker {
+    border-bottom: 1px black solid;
+    overflow: hidden;
+}
+
+.hero__ticker-items {
+    margin: 30px auto;
+    white-space: nowrap;
+}
+
+.hero__ticker-item{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.hero__ticker-items {   
+    animation: tickers 10s linear infinite;
+}
+
+@keyframes tickers {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-123%);
+    }
+}
