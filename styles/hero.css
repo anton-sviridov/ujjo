@@ -19,11 +19,15 @@
 .hero__ticker {
     border-bottom: 1px black solid;
     overflow: hidden;
+    border-right: 1px black solid;
 }
 
 .hero__ticker-items {
     margin: 30px auto;
     white-space: nowrap;
+    animation: tickers 5s linear infinite;
+    display: flex;
+    
 }
 
 .hero__ticker-item{
@@ -32,15 +36,12 @@
     text-transform: uppercase;
 }
 
-.hero__ticker-items {   
-    animation: tickers 10s linear infinite;
-}
-
 @keyframes tickers {
     0% {
         transform: translateX(100%);
     }
     100% {
-        transform: translateX(-123%);
+        transform: translateX(0%);
     }
 }
+
