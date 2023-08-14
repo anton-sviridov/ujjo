@@ -7,7 +7,7 @@
 }
 
 .hero__large-logo {
-    padding: 1.5vw;
+    /* padding: 1.5vw; */
     border-right: 1px black solid;
     border-bottom: 1px black solid;
 }
@@ -16,32 +16,4 @@
     width: 50%;
 }
 
-.hero__ticker {
-    border-bottom: 1px black solid;
-    overflow: hidden;
-    border-right: 1px black solid;
-}
-
-.hero__ticker-items {
-    margin: 30px auto;
-    white-space: nowrap;
-    animation: tickers 5s linear infinite;
-    display: flex;
-    
-}
-
-.hero__ticker-item{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-}
-
-@keyframes tickers {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(0%);
-    }
-}
 
