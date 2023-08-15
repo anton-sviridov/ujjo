@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    height: 112px;
+    height: 135px;
     border-bottom: 1px black solid;
     ;
 }
@@ -23,24 +23,42 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 45%;
+    width: 40%;
 }
 
 .header__right-block {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 45%;
+    width: 40%;
 }
 
 .header__logo-block {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 10%;
+    width: 20%;
+}
+
+.header__logo {
+    padding-top: 9px;
 }
 
 .header__item {
     list-style: none;
-    padding: 3rem;
+    padding: 3rem 0 ;
+    font-weight: 600;
+}
+
+.header__item a {
+    width: 100%;
+    height: 100%;
+    padding: 1vw 3vw;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.header__left-block a:hover, .header__right-block a:hover {
+    border: 1px black solid;
+    border-radius: 50%;
 }

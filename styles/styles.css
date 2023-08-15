@@ -4,15 +4,35 @@
 
 .container {
     margin: 0 auto;
-    max-width: 1826px;
+    max-width: 1825px;
     width: 100%;
-    border-left: 1px black solid;
-    border-right: 1px black solid;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+}
+
+button {
+    padding: 1.1vw 6.4vw;
+    background-color: #FFFCF7;
+    border: 1px black solid;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
 }
 
 .link {
     text-decoration: none;
     color: black;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
+
+.pass {
+    height: 1000px;
+}
+
