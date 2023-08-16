@@ -1,0 +1,14 @@
+.slider {
+    margin-top: 30px;
+    height: 699px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.slider__item {
+    display: inline-flex;
+    padding-left: 40px; 
+}
+
+.move {
+margin-left: -100px;}

@@ -15,11 +15,9 @@ document.addEventListener ("scroll", () => {
     // 
     if (prevSscrollPositionY > currentSscrollPositionY) {
         header.classList.add("header__sticky_visible");
-        console.log("add");
     }
     else {
         header.classList.remove("header__sticky_visible");
-        console.log("remove");
     }
     prevSscrollPositionY = window.scrollY;
 });
