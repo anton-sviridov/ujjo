@@ -2,10 +2,10 @@
 
 const header = document.getElementById("header");
 
-var prevSscrollPositionY = 0;
+let prevSscrollPositionY = 0;
 
 document.addEventListener ("scroll", () => {
-    var currentSscrollPositionY = window.scrollY;
+    let currentSscrollPositionY = window.scrollY;
     if (currentSscrollPositionY > 135) {
         header.classList.add("header__sticky");
     } else {

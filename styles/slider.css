@@ -1,14 +1,11 @@
 .slider {
     margin-top: 30px;
-    height: 699px;
+    flex-wrap: inherit;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: hidden; */
 }
 
 .slider__item {
     display: inline-flex;
     padding-left: 40px; 
 }
-
-.move {
-margin-left: -100px;}
