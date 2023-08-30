@@ -1,11 +1,24 @@
 .slider {
-    margin-top: 30px;
-    flex-wrap: inherit;
-    white-space: nowrap;
-    overflow: hidden; */
+    width: 100%;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */  
 }
 
-.slider__item {
-    display: inline-flex;
-    padding-left: 40px; 
+.slider__tabs-box {
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    padding: 40px 20px;
+}
+
+
+.slider__tab {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+
+.slider__tab img {
+    width: 25vw;
 }

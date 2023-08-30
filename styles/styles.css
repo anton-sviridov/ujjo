@@ -27,7 +27,6 @@ button:hover {
 }
 
 .link {
-    text-decoration: none;
     color: black;
     font-size: 1.2rem;
 }
@@ -36,3 +35,6 @@ button:hover {
     height: 1000px;
 }
 
+ul {
+    list-style: none;
+}
