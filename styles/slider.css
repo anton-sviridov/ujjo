@@ -12,16 +12,19 @@
     padding: 40px 20px 20px 20px;
 }
 
-
 .slider__tab {
     margin: 0 20px;
-    cursor: pointer;
+    cursor: default;
     display: grid;
 }
 
 
 .slider__tab img {
-    width: 25vw;
+    width: 25rem;
+}
+
+.slider__link_non-clickable {
+    pointer-events: none;
 }
 
 .slider__image, .slider__tab-content {
@@ -32,7 +35,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 8vw;
+    padding-top: 8rem;
 }
 
 .slider__tab-content {
@@ -40,18 +43,18 @@
 }
 
 .slider__tab-content h4 {
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 .slider__tab-content h3 {
     font-family: 'NeueMachina-Ultrabold';
-    padding-top: 0.5vw;
-    font-size: 2vw;
+    padding-top: 0.5rem;
+    font-size: 2rem;
 }
 
 .slider__tab-image {
-    margin: 1vw;
-    max-width: 22vw;
+    margin: 1rem;
+    max-width: 22rem;
     width: 100%;
     height: auto;
     border: 1px black solid;

@@ -6,7 +6,7 @@ let prevSscrollPositionY = 0;
 
 document.addEventListener ("scroll", () => {
     let currentSscrollPositionY = window.scrollY;
-    if (currentSscrollPositionY > 135) {
+    if (currentSscrollPositionY > 138) {
         header.classList.add("header__sticky");
     } else {
         header.classList.remove("header__sticky");
