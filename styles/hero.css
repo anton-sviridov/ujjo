@@ -1,6 +1,6 @@
 .hero {
     display: flex;
-        border-bottom: 1px black solid;
+        border-bottom: 0.09em black solid;
 
 }
 
@@ -11,8 +11,8 @@
 
 .hero__large-logo {
     padding: 1.5vw;
-    border-right: 1px black solid;
-    border-bottom: 1px black solid;
+    border-right: 0.09em black solid;
+    border-bottom: 0.09em black solid;
 }
 
 .hero__right-block {
@@ -22,7 +22,7 @@
 }
 
 .hero__description {
-    border-right: 1px black solid;
+    border-right: 0.09em black solid;
     padding-top: 4rem;
     text-align: center;
 }

@@ -3,17 +3,18 @@
 }
 
 .container {
+    position: relative;
     margin: 0 auto;
     max-width: 1825px;
     width: 100%;
-    border-left: 2px black solid;
-    border-right: 2px black solid;
+    border-left: 0.18em black solid;
+    border-right: 0.18em black solid;
 }
 
 button {
     padding: 1.1vw 6.4vw;
     background-color: #FFFCF7;
-    border: 1px black solid;
+    border: 0.09em black solid;
     border-radius: 50%;
     font-size: 2rem;
     text-align: center;

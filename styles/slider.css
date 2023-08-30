@@ -59,6 +59,6 @@
     transition: transform .1s;
 }
 
-.slider__tab-image:hover {
+.slider__tab:hover .slider__tab-image {
     transform: scale(1.01);
 }
