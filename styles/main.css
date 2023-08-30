@@ -5,4 +5,16 @@
 @import url("./ticker.css");
 @import url("./slider.css");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
+@font-face {
+    font-family:"NeueMachina-Ultrabold";
+    src: url("./NeueMachina-Ultrabold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#newfont{
+    font-family:'NeueMachina-Ultrabold';
+}

@@ -9,16 +9,56 @@
     display: flex;
     align-items: center;
     overflow-x: hidden;
-    padding: 40px 20px;
+    padding: 40px 20px 20px 20px;
 }
 
 
 .slider__tab {
     margin: 0 20px;
     cursor: pointer;
+    display: grid;
 }
 
 
 .slider__tab img {
     width: 25vw;
+}
+
+.slider__image, .slider__tab-content {
+    grid-area: 1/2;
+}
+
+.slider__tab-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8vw;
+}
+
+.slider__tab-content {
+    text-transform: uppercase;
+}
+
+.slider__tab-content h4 {
+    font-size: 1vw;
+}
+
+.slider__tab-content h3 {
+    font-family: 'NeueMachina-Ultrabold';
+    padding-top: 0.5vw;
+    font-size: 2vw;
+}
+
+.slider__tab-image {
+    margin: 1vw;
+    max-width: 22vw;
+    width: 100%;
+    height: auto;
+    border: 1px black solid;
+    border-radius: 10px;
+    transition: transform .1s;
+}
+
+.slider__tab-image:hover {
+    transform: scale(1.01);
 }
