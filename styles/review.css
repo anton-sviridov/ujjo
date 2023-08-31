@@ -1,0 +1,25 @@
+.review {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.09em black solid;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+}
+
+.review__block {
+    width: 50%;
+    padding: 2.5vw;
+}
+
+.review__left-block {
+    border-right: 0.09em black solid;
+}
+
+.review__main-text {
+    font-family: 'NeueMachina-Ultrabold';
+}
+
+.review__secondary-text {
+    font-weight: 400;
+}
