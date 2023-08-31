@@ -3,13 +3,13 @@
     width: 100%;
     text-align: center;
     border-bottom: 0.09em black solid;
-    font-size: 1.2vw;
     text-transform: uppercase;
 }
 
 .review__block {
     width: 50%;
     padding: 2.5vw;
+    font-size: 1.2vw;
 }
 
 .review__left-block {

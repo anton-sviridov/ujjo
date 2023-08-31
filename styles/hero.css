@@ -1,17 +1,17 @@
 .hero {
     display: flex;
         border-bottom: 0.09em black solid;  
-
-}
-
-.hero__left-block {
-    max-width: 50%;
-    width: 50%;
+        
+    }
+    
+    .hero__left-block {
+        max-width: 50%;
+        width: 50%;
+        border-right: 0.09em black solid;  
 }
 
 .hero__large-logo {
     padding: 1.5vw;
-    border-right: 0.09em black solid;
     border-bottom: 0.09em black solid;
 }
 
@@ -22,7 +22,6 @@
 }
 
 .hero__description {
-    border-right: 0.09em black solid;
     padding-top: 4rem;
     text-align: center;
 }

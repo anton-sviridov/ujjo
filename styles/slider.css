@@ -58,7 +58,7 @@
     max-width: 22rem;
     width: 100%;
     height: auto;
-    border: 1px black solid;
+    border: 0.09em black solid;
     border-radius: 10px;
     transition: transform .1s;
 }

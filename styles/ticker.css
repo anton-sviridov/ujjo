@@ -1,7 +1,6 @@
 .ticker {
-    border-bottom: 1px black solid;
+    border-bottom: .09em black solid;
     overflow: hidden;
-    border-right: 1px black solid;
 }
 
 .ticker__items {
