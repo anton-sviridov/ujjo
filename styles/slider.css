@@ -24,9 +24,9 @@
     width: 25rem;
 }
 
-.slider__link_non-clickable {
+/* .slider__link_non-clickable {
     pointer-events: none;
-}
+} */
 
 .slider__image, .slider__tab-content {
     grid-area: 1/2;

@@ -1,0 +1,95 @@
+.block {
+    display: flex;
+        border-bottom: 0.09em black solid;  
+        
+    }
+    
+.block__left-block {
+    max-width: 50%;
+    width: 50%;
+    border-right: 0.09em black solid;  
+}
+
+.block__large-logo {
+    padding: 1.5vw;
+    /* border-bottom: 0.09em black solid; */
+}
+
+.block__large-logo img {
+    max-width: 100%;
+}
+
+.block__right-block {
+    max-width: 50%;
+    width: 50%;
+    overflow: auto;
+}
+
+.block__description {
+    text-align: center;
+}
+
+.block__description.left-bottom {
+    overflow: hidden;
+    padding-bottom: 0;
+}
+
+.block__description.right-top-block {
+    padding-top: 3rem;
+    padding-bottom: 2.6rem;
+    border-right: none;
+}
+
+.block__description h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 4vw;
+    font-weight: 600;
+    font-family: "NeueMachina-Ultrabold";
+}
+
+.block__description h2 {
+    padding-top: 3rem;
+    font-size: 2.3vw;
+}
+
+.block__description h3 {
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding-top: 1.6rem;
+    padding-bottom: 2.8rem;
+}
+
+.block__description h4 {
+    font-weight: 400;
+    font-size: 1.07vw;
+    /* font-size: 22px; */
+    padding-top: 1vw;
+    padding-bottom: 1.2vw;
+}
+
+
+.block__description.right-top-block h3 {
+    padding-bottom: 1.4rem;
+}
+
+.block__about {
+    display: grid;
+}
+
+.block__about-text {
+    padding: 20%;
+}
+
+.block__about-picture, .block__about-text {
+    grid-area: 1/2;
+}
+
+.block__picture {
+    padding: 1.5vw;
+    overflow: hidden;
+}
+
+.block__picture img {
+    max-width:100%;
+}

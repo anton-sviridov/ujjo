@@ -18,6 +18,7 @@
 
 .review__main-text {
     font-family: 'NeueMachina-Ultrabold';
+    overflow-wrap: anywhere;
 }
 
 .review__secondary-text {

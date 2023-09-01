@@ -9,7 +9,7 @@ const drag = (e) => {
         e.preventDefault();
 
         for(let i = 0; i < sliderLink.length; i++) {
-            sliderLink[i].classList.add("slider__link_non-clickable");
+            sliderLink[i].classList.add("non-clickable-link");
         }
     }
     
@@ -19,7 +19,7 @@ const drag = (e) => {
 const dragStop = () => {
     isDragging = false;
     for(let i = 0; i < sliderLink.length; i++) {
-        sliderLink[i].classList.remove("slider__link_non-clickable");
+        sliderLink[i].classList.remove("non-clickable-link");
     }
 
 }

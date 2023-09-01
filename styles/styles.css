@@ -32,10 +32,18 @@ button:hover {
     font-size: 1.2rem;
 }
 
+.non-clickable-link {
+    pointer-events: none;
+}
+
 .pass {
     height: 1000px;
 }
 
 ul {
     list-style: none;
+}
+
+.border-bottom {
+    border-bottom: 0.09em black solid;
 }
