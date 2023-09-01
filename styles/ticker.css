@@ -41,6 +41,16 @@
     max-width: 6vw;
 }
 
+.ticker__pic-large {
+    max-width: 10vw;
+    margin-right: 4vw;
+}
+
+.ticker__pic-very-large {
+    max-width: 20vw;
+    margin-right: 4vw;
+
+}
 @keyframes marquee {
     0% {
         transform: translateX(0)
